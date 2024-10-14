@@ -152,9 +152,6 @@ section{
     font-weight: normal ;
 }
 
-.projects{
-   
-}
 
 .projects .content{
     margin-top: 30px;
@@ -177,10 +174,6 @@ section{
     transform: scale(1.01);
 }
 
-.project-image{
-
-
-}
 
 .project-info{
     padding: 1em;
@@ -219,6 +212,11 @@ section{
 .footer-title span {
     color: #f0f0f0;
     font-size: 1.1em;
+}
+
+img{
+    margin: 5px;
+    padding: 5px;
 }
 
 @media (max-width:1023px){
@@ -265,6 +263,12 @@ section{
     .main-content h3{
         font-size: 1.4em;
     }
+
+    img{
+        max-width: 100%;
+       
+    }
+
 }
 
 @media (max-width:300px){
